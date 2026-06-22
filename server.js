@@ -15,7 +15,6 @@ app.use(cors({
     'https://carimakan-frontend.vercel.app'
   ]
 }));
-app.use(express.json());
 
 // Test route
 app.get('/', (req, res) => {
